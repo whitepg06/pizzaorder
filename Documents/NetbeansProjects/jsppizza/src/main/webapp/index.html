@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perry's Pizza</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Perry's Pizza Order Form</h1>
+        <form name='pizzaform' method='get' action='order.jsp'>
+            <p> Customer Email: <input type='text' name='email' size='40'
+                                       placeholder='enter email' required></p>
+            <input type='radio' name='crust' value='hand-tossed'> Hand-Tossed
+            <input type='radio' name='crust' value='pan'> Pan
+            <input type='radio' name='crust' value='thin'> Thin
+            <br>
+            <br>
+            <input type='radio' name='size' value='large'> Large
+            <input type='radio' name='size' value='medium'> Medium
+            <input type='radio' name='size' value='small'> Small
+            <br>
+            <br>
+            <input type='checkbox' name='toppings' value='pepperoni'> Pepperoni
+            <input type='checkbox' name='toppings' value='mushroom'> Mushroom
+            <input type='checkbox' name='toppings' value='pineapple'> Pineapple
+            <br>
+            <br>
+            <input type='submit' name='order' value='Place Order'>
+        </form>
+    </body>
+</html>
